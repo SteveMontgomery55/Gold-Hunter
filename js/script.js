@@ -15,7 +15,7 @@ function flipCard() {
         flippedCard = false;
         cardTwo = this;
 
-        //Is it a match?
+    //Is it a match?
 
         if (cardOne.dataset.image === cardTwo.dataset.image) {
             setTimeout(() => {
@@ -33,7 +33,7 @@ function flipCard() {
     }
 }
 
-//Making the images random
+    //Making the images random
 
 (function shuffle() {
     cards.forEach(card => {
