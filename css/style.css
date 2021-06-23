@@ -34,3 +34,27 @@ h2 {
   transform-style: preserve-3d;
   transition: transform 1s;
 }
+
+.memory-card:active {
+  transition: transform 1.5s;
+}
+
+.memory-card.flip {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  padding: 10px;
+  border-radius: 3px;
+  background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);;
+  backface-visibility: hidden;
+  
+}
+
+.front {
+  transform: rotateY(180deg);
+}
