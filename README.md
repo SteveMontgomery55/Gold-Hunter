@@ -1,59 +1,125 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Gold Hunter** #
 
-Welcome SteveMontgomery55,
+>## **Project Overview** ##
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Gold Hunter is a memory game where the player has to find matching images of money at the end of the rainbow.
 
-## Gitpod Reminders
+>## **User Experience** ##
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Mock up
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## **User Stories** ##
 
-Another blue button should appear to click: _Open Browser_.
+### **First Time Visitor Goals** ###
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. As a First Time Visitor, I want to see what the game is.
+2. As a First Time Visitor, I want to see if I can pick it up easily.
+3. As a First Time Visitor, I want to see if I can complete the task.
 
-A blue button should appear to click: _Make Public_,
+### **Returning Visitor Goals** ###
 
-Another blue button should appear to click: _Open Browser_.
+1. As a Returning Visitor, I want to see if I can finish the game quicker.
+2. As a Returning Visitor, I want to see if other levels of difficulty have been added.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+>## **Features** ##
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The game board is brightly coloured and visually pleasing. The images of the the matching pairs are quite similar\
+to each other in some cases to make the game more difficult. The images also have alt attributes so if the images do not\
+display, the game can still be played.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+### **Furture Features** ###
 
-## Updates Since The Instructional Video
+Many more levels could be added to the game with more matches to find.\
+The images could be even more similar to each other to add to difficulty\
+A countdown timer element could be added for more difficulty.\
+A scoreboard could be created for returning users.\
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+>## **Technologies Used** ##
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+To create this site, the following have been used.\
+GitPod <https://www.gitpod.io/> and GitHub <https://github.com/> were used to create, host, store and \
+eventually deploy the project.\
+Bootstrap <https://getbootstrap.com/> was used for layout and resposive elements of the site. \
+Pexels <https://www.pexels.com/> was used for all the images throughout the site\
+W3C <https://jigsaw.w3.org/css-validator/> , W3C <https://validator.w3.org/#validate_by_input> and \
+were used JSHint <https://jshint.com/>for testing purposes along with Lighthouse in developer tools\
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+>## **Testing** ##
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## **First Time Visitor Goals** ##
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+1. As a First Time Visitor, I want to see what the game is.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
++ On first loading the site, a simple line of text explains what the game is about.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+2. As a First Time Visitor, I want to see if I can pick it up easily.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
++ After reading the basic instrustions, and two cards being clicked on, an alert appears with either a yes or no comment,\
+with more relevant wording relating to the game. One the ok button is clicked, the game can carry on.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+3. As a First Time Visitor, I want to see if I can complete the task.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
++ Once started, the urge to finish the game is too great to just leave it, so completing it is a must.
 
----
 
-Happy coding!
+## **Returning Visitor Goals** ##
+
+1. As a Returning Visitor, I want to see if I can finish the game quicker.
+
++ Until a possible coutdown is added, competition against yourself and previous times is a big incentive to try again.
+
+2. As a Returning Visitor, I want to see if other levels of difficulty have been added.
+
++ A number of additions can be made to the game including more levels, to draw users in.
+
+
+
+
+I have run the code including css through W3C validators and checkers and no errors have occurred.
+
+HtML check\
+https://github.com/SteveMontgomery55/Ms-Devine-Lake-Milestone/blob/f88c5293261fb1928f0c469db58b247c98946acb/README-images/index-check.png
+
+CSS check\
+https://github.com/SteveMontgomery55/Ms-Devine-Lake-Milestone/blob/f88c5293261fb1928f0c469db58b247c98946acb/README-images/css.check.png
+
+JavaScript check\
+https://github.com/SteveMontgomery55/Ms-Devine-Lake-Milestone/blob/f88c5293261fb1928f0c469db58b247c98946acb/README-images/css.check.png
+
+## **Further Testing** ##
+
+
+>## **Deployment** ##
+
+Site is deployed by GitHub
+
+In GitHub, find the GitHub Repository\
+Click on the Settings button.\
+Scroll down to GitHub Pages.\
+Click the link to the new dedicated tab.\
+Under Source, click on None and select Master Branch.\
+Select save.\
+A link will appear to the deployed site.\
+
+<https://stevemontgomery55.github.io/Gold-Hunter/>
+
+>## **Credits** ###
+
+### **Content** ###
+
+All text written by the developer except the biography, which is loosely based on two \
+biographies from theatre programmes found on the show websites, (Phantom and Les Mis), \
+which I have then altered to create a new piece.\
+The Code Institute Sample README has been a massive help with writing my own.\
+The <w3cschools.com> webite has also been invaluable with.
+
+### **Media** ###
+
+All photographs are taken from the Pexels website.
+
+### **Acknowledgements** ###
+
+Credit needs to go to the tutors at The Code Institute for their support and my Mentor Aaron Sinnott \
+for his help and encouragement.
