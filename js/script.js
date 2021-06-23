@@ -1,7 +1,7 @@
 const cards = document.querySelectorAll('.memory-card');
 
 let flippedCard = false;
-let firstCard, secondCard;
+let cardOne, cardTwo;
 
 function flipCard() {
     this.classList.add('flip');
@@ -10,23 +10,23 @@ function flipCard() {
 
     if (!flippedCard) {
         flippedCard = true;
-        firstCard = this;
+        cardOne = this;
     } else {
         flippedCard = false;
-        secondCard = this;
+        cardTwo = this;
 
         //Is it a match?
 
-        if (firstCard.dataset.image === secondCard.dataset.image) {
+        if (cardOne.dataset.image === cardTwo.dataset.image) {
             setTimeout(() => {
-                firstCard.removeEventListener('click', flipCard);
-                secondCard.removeEventListener('click', flipCard);
+                cardOne.removeEventListener('click', flipCard);
+                cardTwo.removeEventListener('click', flipCard);
                 alert("Congratulations! The money is yours!");
             }, 1500);
         } else {
             setTimeout(() => {
-                firstCard.classList.remove('flip');
-                secondCard.classList.remove('flip');
+                cardOne.classList.remove('flip');
+                cardTwo.classList.remove('flip');
                 alert("Sorry, no money for you!");
             }, 1500);
         }
