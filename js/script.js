@@ -1,3 +1,6 @@
+const cards = document.querySelectorAll('.memory-card');
+
+let flippedCard = false;
 let firstCard, secondCard;
 
 function flipCard() {
