@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  background: url('../images/full-rb.jpg');
+}
+
+h1 {
+    color: gold;
+    font-size: 80px;
+    text-align: center;
+}
+
+h2 {
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.memory-game {
+  width: 640px;
+  height: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
+}
+
+
+.memory-card {
+  width: calc(33.333% - 10px);
+  height: calc(33.333% - 10px);
+  margin: 5px;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
