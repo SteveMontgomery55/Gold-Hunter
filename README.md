@@ -6,7 +6,7 @@ Gold Hunter is a memory game where the player has to find matching images of mon
 
 >## **User Experience** ##
 
-Mock up
+![](/workspace/Gold-Hunter/README%20images/Gameboard.png)
 
 
 ## **User Stories** ##
@@ -80,15 +80,14 @@ with more relevant wording relating to the game. One the ok button is clicked, t
 I have run the code including css through W3C validators and checkers and no errors have occurred.
 
 HtML check\
-https://github.com/SteveMontgomery55/Ms-Devine-Lake-Milestone/blob/f88c5293261fb1928f0c469db58b247c98946acb/README-images/index-check.png
+https://github.com/SteveMontgomery55/Gold-Hunter/blob/06e6eb782904ee9174fb0d88634c6abd7e492352/README%20images/HTML-Checker.png
 
 CSS check\
-https://github.com/SteveMontgomery55/Ms-Devine-Lake-Milestone/blob/f88c5293261fb1928f0c469db58b247c98946acb/README-images/css.check.png
+https://github.com/SteveMontgomery55/Gold-Hunter/blob/06e6eb782904ee9174fb0d88634c6abd7e492352/README%20images/CSS-Validation.png
 
 JavaScript check\
-https://github.com/SteveMontgomery55/Ms-Devine-Lake-Milestone/blob/f88c5293261fb1928f0c469db58b247c98946acb/README-images/css.check.png
+https://github.com/SteveMontgomery55/Gold-Hunter/blob/06e6eb782904ee9174fb0d88634c6abd7e492352/README%20images/JavaScript-Checker.png
 
-## **Further Testing** ##
 
 
 >## **Deployment** ##
