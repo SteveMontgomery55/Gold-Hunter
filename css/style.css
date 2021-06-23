@@ -15,6 +15,8 @@ h2 {
     text-align: center;
 }
 
+/*Game Area*/
+
 .memory-game {
   width: 640px;
   height: 640px;
@@ -24,6 +26,7 @@ h2 {
   perspective: 1000px;
 }
 
+/* Playing Card*/
 
 .memory-card {
   width: calc(33.333% - 10px);
