@@ -6,7 +6,11 @@ Gold Hunter is a memory game where the player has to find matching images of mon
 
 >## **User Experience** ##
 
-![](/workspace/Gold-Hunter/README%20images/Gameboard.png)
+Mock up.
+https://github.com/SteveMontgomery55/Gold-Hunter/blob/e87f7737b85d835312b3e4b5f97342362918c5e6/README%20images/Mockup.jpg
+
+Gameboard.
+https://github.com/SteveMontgomery55/Gold-Hunter/blob/e87f7737b85d835312b3e4b5f97342362918c5e6/README%20images/Gameboard.png
 
 
 ## **User Stories** ##
@@ -23,10 +27,12 @@ Gold Hunter is a memory game where the player has to find matching images of mon
 2. As a Returning Visitor, I want to see if other levels of difficulty have been added.
 
 
+
 >## **Features** ##
 
 The game board is brightly coloured and visually pleasing. The images of the the matching pairs are quite similar\
-to each other in some cases to make the game more difficult. The images also have alt attributes so if the images do not\
+to each other in some cases to make the game more difficult.\
+The game is responsive on all sizes of device and the images also have alt attributes so if the images do not\
 display, the game can still be played.
 
 ### **Furture Features** ###
@@ -56,8 +62,8 @@ were used JSHint <https://jshint.com/>for testing purposes along with Lighthouse
 
 2. As a First Time Visitor, I want to see if I can pick it up easily.
 
-+ After reading the basic instrustions, and two cards being clicked on, an alert appears with either a yes or no comment,\
-with more relevant wording relating to the game. One the ok button is clicked, the game can carry on.
++ After reading the basic instructions, and two cards being clicked on, an alert appears with either a yes or no comment,\
+with more relevant wording relating to the game. Once the ok button is clicked, the game can carry on.
 
 3. As a First Time Visitor, I want to see if I can complete the task.
 
@@ -72,7 +78,7 @@ with more relevant wording relating to the game. One the ok button is clicked, t
 
 2. As a Returning Visitor, I want to see if other levels of difficulty have been added.
 
-+ A number of additions can be made to the game including more levels, to draw users in.
++ A number of additions can be made to the game including more levels to draw users in.
 
 
 
@@ -98,7 +104,8 @@ In GitHub, find the GitHub Repository\
 Click on the Settings button.\
 Scroll down to GitHub Pages.\
 Click the link to the new dedicated tab.\
-Under Source, click on None and select Master Branch.\
+Under Source, click on None.\
+Select Master.\
 Select save.\
 A link will appear to the deployed site.\
 
@@ -108,11 +115,13 @@ A link will appear to the deployed site.\
 
 ### **Content** ###
 
-All text written by the developer except the biography, which is loosely based on two \
-biographies from theatre programmes found on the show websites, (Phantom and Les Mis), \
-which I have then altered to create a new piece.\
-The Code Institute Sample README has been a massive help with writing my own.\
-The <w3cschools.com> webite has also been invaluable with.
+I have used a number of sites and tutorials to help with code, content and styling.\
+The links to these are as follows.\
+<https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j>\
+<https://devsnap.me/javascript-memory-games>\
+<https://codepen.io/unnegative/pen/dVwYBq>\
+<https://www.youtube.com/watch?v=ZniVgo8U7ek>\
+<https://www.youtube.com/watch?v=tjyDOHzKN0w>
 
 ### **Media** ###
 
